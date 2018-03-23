@@ -5,7 +5,7 @@ Example project for scraping German recipe websites
 For running this code, you need to install the following:
 
 - Anaconda with Python 3 (includes Jupyter Notebook)
-- `pip install scrapy pandas`
+- `pip install scrapy pandas numpy scipy fasttext matplotlib wordcloud`
 
 ## Usage
 
