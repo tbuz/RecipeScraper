@@ -2,7 +2,7 @@
 Data Science Project for Scraping German Recipe Websites
 
 This repo contains the source code, scripts and pdf file for the Master's thesis:
-##### Creating Business Value with Multi-Domain Data Analysis   on Web-Scraped Data (from the Largest German Recipe Platforms)
+##### Creating Business Value with Multi-Domain Data Analysis\ on Web-Scraped Data (from the Largest German Recipe Platforms)
 
 Tolga Buz  
 M.Sc. Industrial Engineering  
