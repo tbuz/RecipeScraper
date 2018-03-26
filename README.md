@@ -1,5 +1,14 @@
 # RecipeScraper
-Example project for scraping German recipe websites
+Data Science Project for Scraping German Recipe Websites
+
+This repo contains the source code, scripts and pdf file for the Master's thesis:
+##### Creating Business Value with Multi-Domain Data Analysis on Web-Scraped Data (from the Largest German Recipe Platforms)
+
+Tolga Buz
+M.Sc. Industrial Engineering
+Chair of Information and Communication Management
+Institute of Technology and Management
+Technical University of Berlin
 
 ## Setup
 For running this code, you need to install the following:
@@ -34,10 +43,10 @@ Coding with Jupyter goes step by step, which means that every line can be execut
 #### Analysis Results
 This repo contains the visualised results of the data analysis as well. They can be viewed for further insights, as they contain detailed analysis steps for each website, which are summarised in the thesis paper.
 
-#### FastText Word Embeddings
-The Notebook file `FastText Model Training.ipynb` shows how text data can be extracted from the kochbar dataset to train word embeddings. 
+#### Generated Features and Word Embeddings
+
+The Notebook file `FastText Model Training.ipynb` shows how text data can be extracted from the kochbar dataset to train word embeddings with the open source tool FastText. 
+
 
 ### 4. PDF file Master's Thesis
 This repo also contains the PDF file for the Master's Thesis, which describes and summarises the complete project.
-
-
