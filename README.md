@@ -6,8 +6,9 @@ This repo contains the source code, scripts and pdf file for the Master's thesis
 **Creating Business Value with Multi-Domain Data Analysis on Web-Scraped Data**  
 **(from the Largest German Recipe Platforms)**
 
-Tolga Buz  
-M.Sc. Industrial Engineering  
+Author: Tolga Buz  
+Programme: M.Sc. Industrial Engineering  
+Supervision:  
 Chair of Information and Communication Management  
 Institute of Technology and Management  
 Technical University of Berlin
@@ -46,7 +47,7 @@ Coding with Jupyter goes step by step, which means that every line can be execut
 This repo contains the visualised results of the data analysis as well. They can be viewed for further insights, as they contain detailed analysis steps for each website, which are summarised in the thesis paper.
 
 #### Generated Features and Word Embeddings
-
+Some feature extractions are performed outside of the Analysis notebook, as they require more memory. The notebooks with he name `Trend_Dataset_*` show how the datasets of each website need to be transformed to create a DataFrame that can be used to identify trending recipes.
 The Notebook file `FastText Model Training.ipynb` shows how text data can be extracted from the kochbar dataset to train word embeddings with the open source tool FastText. 
 
 
