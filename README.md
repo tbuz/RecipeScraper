@@ -37,7 +37,8 @@ The full datasets are too large to be stored online in this repository (up to 60
 - kochbar_XX.json
 - eatsmarter_XX.json
 
-with XX denoting the month of its download date, ranging from 10 (=October 2017) to 03 (=March 2018).
+with XX denoting the month of its download date, ranging from 10 (=October 2017) to 03 (=March 2018). The datasets are largely redundant, because they are snapshots of the same websites taken over a period of six months.
+This has been done in order to analyse changes on each website over that time frame.
 
 #### Further Datasets
 Similarly, download scripts for the trained word embeddings (`word_embeddings/get_embeddings.sh`) and the exported data subsets (`exports/get_exports.sh`) have been provided and can be executed in their respective folders.
@@ -47,12 +48,14 @@ Start Jupyter from console with `jupyter notebook` or through Anaconda Navigator
 
 Coding with Jupyter goes step by step, which means that every line can be executed seperately for implementing changes and prototyping ideas.
 
+Alternatively, the notebook files can also be opened here on GitHub directly by just clicking on the respective file (read only).
+
 #### Analysis Results
 This repo contains the results of the data analysis (`Detailed_Analysis_*.ipynb`). They can be viewed for further insights, as they contain detailed analysis steps for each website, which are summarised in the thesis paper.
 
 #### Generated Features and Word Embeddings
-Some feature extractions are performed outside of the Analysis notebook, as they require more memory. The notebooks with he name `Trend_Dataset_*` show how the datasets of each website need to be transformed to create a DataFrame that can be used to identify trending recipes.
-The Notebook file `FastText Model Training.ipynb` shows how text data can be extracted from the kochbar dataset to train word embeddings with the open source tool FastText. 
+Some feature extractions are performed outside of the Analysis notebook, as they require more memory. The notebooks with he name `Trend_Dataset_*.ipynb` show how the datasets of each website need to be transformed to create a DataFrame that can be used to identify trending recipes.
+The Notebook file `FastText_Model_Training.ipynb` shows how text data can be extracted from the kochbar dataset to train word embeddings with the open source tool FastText. 
 
 ### 4. Thesis Paper
 This repo also contains the PDF file for the Master's thesis paper, which describes and summarises the complete project.
