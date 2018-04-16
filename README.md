@@ -57,7 +57,7 @@ If the notebook files (.ipynb) do not load, the .html files in the folder `html/
 
 #### Generated Features and Word Embeddings
 Some feature extractions are performed outside of the Analysis notebook, as they require more memory. The notebooks with he name `Trend_Dataset_*.ipynb` show how the datasets of each website need to be transformed to create a DataFrame that can be used to identify trending recipes.
-The Notebook file `FastText_Model_Training.ipynb` shows how text data can be extracted from the kochbar dataset to train word embeddings with the open source tool FastText. 
+The Notebook file `FastText_Model_Kochbar.ipynb` shows how text data can be extracted from the kochbar dataset to train word embeddings with the open source tool FastText. 
 
 ### 4. Thesis Paper
 This repo also contains the PDF file for the Master's thesis paper, which describes and summarises the complete project.
