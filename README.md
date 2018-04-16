@@ -48,10 +48,12 @@ Start Jupyter from console with `jupyter notebook` or through Anaconda Navigator
 
 Coding with Jupyter goes step by step, which means that every line can be executed seperately for implementing changes and prototyping ideas.
 
-Alternatively, the notebook files can also be opened here on GitHub directly by just clicking on the respective file (read only).
-
 #### Analysis Results
 This repo contains the results of the data analysis (`Detailed_Analysis_*.ipynb`). They can be viewed for further insights, as they contain detailed analysis steps for each website, which are summarised in the thesis paper.
+
+**Note:**  
+The notebook files can also be opened here on GitHub directly by just clicking on the respective file (read only).
+If the notebook files (.ipynb) do not load, the .html files in the folder `html/` can be used for local read-only access.
 
 #### Generated Features and Word Embeddings
 Some feature extractions are performed outside of the Analysis notebook, as they require more memory. The notebooks with he name `Trend_Dataset_*.ipynb` show how the datasets of each website need to be transformed to create a DataFrame that can be used to identify trending recipes.
